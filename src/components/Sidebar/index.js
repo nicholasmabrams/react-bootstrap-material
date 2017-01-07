@@ -29,14 +29,8 @@ class Sidebar extends Component {
             <li className={classNames({ active: !this.state.chartsElementsCollapsed })}>
               <a
                 href=""
-                onClick={(e) => {
-                  e.preventDefault();
-                  this.setState({ chartsElementsCollapsed: !this.state.chartsElementsCollapsed });
-                  return false;
-                }}
               >
                 <i className="fa fa-bar-chart-o fa-fw" /> &nbsp;Reporting
-                <span className="fa arrow" />
               </a>
             </li>
 
@@ -58,6 +52,5 @@ class Sidebar extends Component {
     );
   }
 }
-
 
 export default Sidebar;

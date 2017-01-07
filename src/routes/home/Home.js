@@ -105,74 +105,6 @@ function Home(props, context) {
               </ResponsiveContainer>
             </div>
           </Panel>
-
-          <Panel
-            header={<span>
-              <i className="fa fa-clock-o fa-fw" /> Responsive Timeline
-            </span>}
-          >
-            <div>
-              <ul className="timeline">
-                <li>
-                  <div className="timeline-badge"><i className="fa fa-check" />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Lorem ipsum dolor</h4>
-                      <p>
-                        <small className="text-muted">
-                          <i className="fa fa-clock-o" /> 11 hours ago via Twitter
-                        </small>
-                      </p>
-                    </div>
-                    <div className="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-                        laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia
-                        pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas
-                        suscipit facere rem dicta, debitis.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li className="timeline-inverted">
-                  <div className="timeline-badge warning"><i className="fa fa-credit-card" />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Lorem ipsum dolor</h4>
-                    </div>
-                    <div className="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem
-                        quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis
-                        rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia
-                        repellendus.
-                      </p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-                        maiores odit qui est tempora eos, nostrum provident explicabo dignissimos
-                        debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="timeline-badge danger"><i className="fa fa-bomb" />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Lorem ipsum dolor</h4>
-                    </div>
-                    <div className="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-                        numquam facilis enim eaque, tenetur nam id qui vel velit similique nihil
-                        iure molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </Panel>
-
         </div>
 
         <div className="col-lg-4">
@@ -220,7 +152,7 @@ function Home(props, context) {
                 <span className="pull-right text-muted small"><em>Yesterday</em></span>
               </ListGroupItem>
             </ListGroup>
-            <Button block>View All Alerts</Button>
+            <button className="btn-lg btn-danger btn-block btn-raised">View All Alerts</button>
           </Panel>
 
           <Panel
